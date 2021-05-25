@@ -34,7 +34,6 @@ const SalesInfo = () => {
                         }
                       >
                         <div className="sales-info__card">
-                          {/* <div className="sales-info__card--date">{date}</div> */}
                           <div className="sales-info__card--sale">
                             <span>{name}</span>total: {pizzaTotal}
                           </div>

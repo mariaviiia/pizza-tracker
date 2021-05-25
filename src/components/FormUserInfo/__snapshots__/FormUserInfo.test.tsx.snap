@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PizzaMaker component renders correctly 1`] = `
+<div>
+  <div
+    class="user-info"
+  >
+    <div
+      class="user-info__form"
+    >
+      <span>
+        Nombre*
+      </span>
+      <input
+        type="text"
+        value=""
+      />
+      <span>
+        Telefono*
+      </span>
+      <input
+        type="number"
+        value=""
+      />
+      <span>
+        Fecha*
+      </span>
+      <input
+        type="date"
+        value=""
+      />
+    </div>
+    <div
+      class="user-info__details"
+    >
+      <span
+        class="user-info__details--title"
+      >
+        order details
+      </span>
+    </div>
+    <a
+      href="/sales"
+    >
+      <button
+        class="button button-primary button__size-md"
+        disabled=""
+      >
+        Finish
+      </button>
+    </a>
+  </div>
+</div>
+`;
