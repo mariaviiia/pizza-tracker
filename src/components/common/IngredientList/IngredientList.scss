@@ -1,0 +1,39 @@
+.ingrendient-list {
+  width: 100%;
+  overflow-y: scroll;
+  height: 200px;
+  padding-left: 10px;
+  background-color: rgba(212, 184, 135, 0.3);
+  &__ingredients {
+    margin-right: 15px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin: 0;
+    li {
+      list-style: none;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+      height: fit-content;
+      flex-basis: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: solid 2px whitesmoke;
+      border-radius: 5px;
+      padding: 0.5em;
+      input[type="checkbox"] {
+        cursor: pointer;
+      }
+      .ingredient__price {
+        font-size: 0.45rem;
+        margin-top: 0.5em;
+        font-weight: lighter;
+      }
+    }
+  }
+}

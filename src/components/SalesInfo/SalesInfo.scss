@@ -1,0 +1,88 @@
+.sales-info {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  &__title {
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.5em;
+  }
+  &__container {
+    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-between;
+  }
+  &__order {
+    margin-bottom: 20px;
+    &--info {
+      width: auto;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-family: cursive;
+      padding: 1em;
+      background-color: #d3b786;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+    }
+  }
+  &__card {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &--date {
+      font-family: cursive;
+      font-size: 10px;
+      letter-spacing: 0.5px;
+      align-self: flex-end;
+      padding: 1em 0em;
+    }
+    &--sale {
+      font-family: cursive;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      padding: 0.1em 1em 0.5em 1em;
+      width: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    &--expand {
+      color: #770d15;
+    }
+  }
+  &__ingredients {
+    margin-right: 10px;
+  }
+  .MuiPaper-root {
+    background-color: rgba(175, 103, 45, 0.2);
+  }
+
+  .MuiAccordion-rounded:last-child {
+    border-radius: 0;
+  }
+
+  .MuiAccordionSummary-root {
+    padding: 0;
+    .MuiAccordionSummary-content {
+      margin: 0;
+    }
+  }
+  .MuiCollapse-container {
+    background-color: rgba(175, 103, 45, 0.22);
+  }
+
+  .MuiIconButton-edgeEnd {
+    margin: 0;
+  }
+}

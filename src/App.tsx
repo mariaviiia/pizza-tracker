@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Link } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Logo from "./assets/logoPizzeria.png";
+import Button, { BUTTON_SIZES } from "./components/common/Button/Button";
+
+import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div className="app__container">
+        <img src={Logo} alt="logo" />
+        <Link to="/Order">
+          <Button buttonLabel="Let's go" size={BUTTON_SIZES.SM} />
+        </Link>
+      </div>
+    </Layout>
   );
 }
 
