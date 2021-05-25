@@ -47,6 +47,17 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Libraries
 
+This project uses React with typescript and material UI to do a collapse in the sales section.
+
 ## Explanation
 
+In this app you can add ingredients to make a pizza, you can choose beetween 15 different ingredients and see how much this cost while you choose, when you finish choosing you can name your pizza with your favorite city name.
+After that you need to fill a form with basic information about you to complete de order and then the app save the name of the pizza, the price and the ingredients in the localstorage to create a dashboard to track the sales of the restaurant, this sales are organized by the orders and allows see the pizza details.
+
+If you want to run the app, you need clone the project, do npm install and then just have to follow the steps above.
+
 ## Doubts
+
+¿how to name the pizzas?
+
+I decided to use an input where the user can copy the name of his favorite city and simply save this name to identify the pizza.
